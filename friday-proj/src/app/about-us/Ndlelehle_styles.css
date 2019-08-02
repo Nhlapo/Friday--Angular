@@ -1,0 +1,154 @@
+#wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #ffffff;
+}
+
+.navbar {
+         height: 50px;
+         padding: 0;
+         margin: 0;
+         position: absolute;
+         border-right: 1px solid #ffffff;
+}
+
+.navbar li {
+          height: aouto;
+          width: 225px;
+          float: left;
+          text-align: center;
+          list-style: none;
+          font: normal bold 12px/1.2em arial, verdana, helvetica;
+          padding: 0;
+          background-color: green;
+}
+
+.navbar a {
+          padding: 18px 0;
+          border-left: 1px solid #1f5065;
+          border-right: 1px solid #1f5065;
+          text-decoration: none;
+          color: white;
+          display: block
+}
+
+.navbar li:hover {background-color: brown;}
+
+.navbar li ul {
+           display: none;
+           height: auto;
+           margin: 0;
+           padding: 0;
+}
+
+.navbar li:hover ul {
+          display: block;
+}
+
+.navbar li ul li {background-color: blue;}
+
+.navbar li ul li a {
+            border-left: 1px solid;
+            border-right: 1px solid;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+}
+
+.navbar li ul li a:hover {background-color: #ffcc00;}
+
+h3 {
+   font-size: 1.5em;
+   font-family: geogia, serif;
+   text-align: center;
+   border-bottom: solid 4px black;
+   border-left: solid 4px black;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-color: green;
+   
+}
+
+h1 {
+   font-size: 1.7em;
+   font-family: geogia. serif;
+   margin-left: 2em;
+   margin-right: 3em;
+   text-align: center;
+   border-bottom: solid 4px black;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-color: brown;
+}
+
+h4 {
+   font-size: 1.7em;
+   font-family: geogia, serif;
+   text-align: center;
+   border-bottom: solid 4px black;
+   border-right: solid 4px black;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-color: green;
+}
+
+h5 {
+   font-size: 1.7em;
+   font-family: geogia, serif;
+   text-align: center;
+   border-bottom: solid 4px black;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-color: green;
+}
+
+h6 {
+   font-size: 1em;
+   font-family: geogia. serif;
+   margin-left: 3em;
+   margin-right: 2em;
+   text-align: left;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 40px;
+   margin-right: 20px;
+}
+
+h7 {
+    font-size: 2em;
+   font-family: geogia. serif;
+   margin-left: 3em;
+   margin-right: 2em;
+   
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 500px;
+   margin-right: 20px;
+}
+
+.copy {
+    font-family: georgia, serif;
+    line-height: 1.5em;
+     margin-left: 20px;
+}
+
+.caps {
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+p {
+   margin-left: 2em;
+   margin-right: 3em;
+   
+}
+
+tr.odd td {
+    background-color: brown;
+}
+
+ tr.add td {
+   background-color: #909090;
+}
